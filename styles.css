@@ -49,6 +49,7 @@ div#home {
   background-size: cover;
   text-align: center;
   vertical-align: middle;
+  padding-top: 30vh;
 }
 
 h1 {
@@ -59,6 +60,22 @@ font-weight: bold;
 letter-spacing: 1px;
 color: white;
 margin-right: 40px;
+}
+
+div#who-we-are {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 98.7vw;
+  background-color: black;
+  color: white;
+  padding-top: 20vh;
+}
+
+div#experiences  {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 98.7vw;
+  padding-top: 20vh;
 }
 
 .London {
@@ -125,6 +142,17 @@ a#citylink {
   text-decoration: none;
 }
 
+
+div#contact {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 98.7vw;
+  padding-top: 30vh;
+  box-align: center;
+}
+
 ol#social {
   list-style: none;
   padding: 0;
@@ -134,6 +162,8 @@ ol#social {
   vertical-align: middle;
   margin: 0 20px;
 }
+
 li#icon {
   margin: 0 20px;
 }
+;
