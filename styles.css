@@ -94,3 +94,45 @@ ol#social {
 li#icon {
   margin: 0 20px;
 }
+
+.London {
+  width: 300px;
+  height: 200px;
+  background: black;
+  overflow: hidden;
+}
+
+.Bath {
+  width: 300px;
+  height: 200px;
+  background: blue;
+  overflow: hidden;
+}
+
+.L-text {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  opacity: 50%;
+  transform: translateY(100px);
+  transition: all 0.2s;
+}
+
+.B-text {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  opacity: 50%;
+  transform: translateY(100px);
+  transition: all 0.2s;
+}
+
+.London:hover .L-text {
+  transform: translateY(0px); 
+
+}
+
+.Bath:hover .B-text {
+  transform: translateY(0px); 
+
+}
