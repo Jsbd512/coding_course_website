@@ -1,11 +1,12 @@
 div.navbar {
   background-color: white;
+  position: fixed;
+  width: 100%;
 }
 ul.navbar-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: fixed;
   overflow: hidden;
 }
 
@@ -41,15 +42,15 @@ body {
 }
 
 div#home {
-  min-height: 90vh;
-  max-height: 90vh;
-  width: 98.7vw;
-  background-image: url(images/christmaslights.jpg);
+  background-image: linear-gradient(to right, rgba(245, 246, 252, 0.00), rgba(0, 51, 153, 0.50)),
+  url(images/christmaslights.jpg);
   background-position: center;
   background-size: cover;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 98.7vw;
   text-align: center;
   vertical-align: middle;
-  padding-top: 30vh;
 }
 
 h1 {
@@ -60,28 +61,51 @@ font-weight: bold;
 letter-spacing: 1px;
 color: white;
 margin-right: 40px;
+margin-top: 100px;
 }
 
 div#who-we-are {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 80vh;
+  max-height: 80vh;
   width: 98.7vw;
-  background-color: black;
+  background-image: url(images/background.jpg);
+  background-size: cover;
   color: white;
   padding-top: 20vh;
 }
 
+h2 {
+text-align: center;
+font-size: 2.5em;
+font-family: sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+color: white;
+margin-top: 50px;
+}
+
+p {
+text-align: center;
+font-size: 1em;
+font-family: sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+color: white;
+margin-top: 50px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
 div#experiences  {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 80vh;
+  max-height: 80vh;
   width: 98.7vw;
-  padding-top: 20vh;
 }
 
 .London {
-  min-height: 50vh;
-  max-height: 50vh;
-  width: 50vw;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 49.35vw;
   background-image: url(images/LondonEye.jpg);
   background-position: center;
   background-size: cover;
@@ -91,9 +115,9 @@ div#experiences  {
 }
 
 .Bath {
-  min-height: 50vh;
-  max-height: 50vh;
-  width: 50vw;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 49.35vw;
   background-image: url(images/BathAbbey.jpg);
   background-position: center;
   background-size: cover;
@@ -103,8 +127,9 @@ div#experiences  {
 }
 
 .L-text {
-  width: 50vw;
-  height: 50vh;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 49.35vw;
   color: black;
   background-color: rgba(255, 255, 255, 0.4);
   transform: translateY(330px);
@@ -112,8 +137,9 @@ div#experiences  {
 }
 
 .B-text {
-  width: 50vw;
-  height: 50vh;
+  min-height: 80vh;
+  max-height: 80vh;
+  width: 49.35vw;
   color: black;
   background-color: rgba(255, 255, 255, 0.4);
   transform: translateY(330px);
@@ -123,16 +149,12 @@ div#experiences  {
 
 .London:hover .L-text {
   transform: translateY(0px);
-
 }
 
 .Bath:hover .B-text {
   transform: translateY(0px);
-
 }
 
-
-}
 
 h2#Cities {
   margin: 0px;
@@ -146,12 +168,12 @@ a#citylink {
 div#contact {
   background-color: black;
   color: white;
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: 80vh;
+  max-height: 80vh;
   width: 98.7vw;
-  padding-top: 30vh;
   box-align: center;
 }
+
 
 ol#social {
   list-style: none;
@@ -166,10 +188,10 @@ ol#social {
 li#icon {
   margin: 0 20px;
 }
-;
 
 .bathimage {
   min-height: 50vh;
   max-height: 50vh;
   width: 50vw;
 }
+<!--where is this located?-->
