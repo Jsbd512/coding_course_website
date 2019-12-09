@@ -190,3 +190,9 @@ li#icon {
 }
 
 
+p#descript {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px #535252;
+}
+
