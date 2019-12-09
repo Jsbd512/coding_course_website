@@ -166,11 +166,12 @@ a#citylink {
 
 
 div#contact {
-  background-color: black;
-  color: white;
+
   min-height: 80vh;
   max-height: 80vh;
   width: 98.7vw;
+  background-color: black;
+  color: white;
   box-align: center;
 }
 
