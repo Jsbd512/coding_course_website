@@ -189,3 +189,9 @@ ol#social {
 li#icon {
   margin: 0 20px;
 }
+
+p#descript {
+  color: white;
+  font-size: 30px;
+  text-shadow: 1px 1px #535252;
+}
