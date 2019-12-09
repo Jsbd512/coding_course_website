@@ -11,13 +11,13 @@ ul.navbar-nav {
 }
 
 
-li#menu {
+li.menu {
 float: left;
 padding: 16px 20px;
 background-color: white;
 }
 
-li#menu a {
+li.menu a {
 display: block;
 padding: 10px;
 text-align: center;
@@ -32,7 +32,7 @@ border-style: solid;
 }
 
 
-li#menu a:hover {
+li.menu a:hover {
 border-color: black;
 }
 
@@ -189,5 +189,3 @@ ol#social {
 li#icon {
   margin: 0 20px;
 }
-
-
