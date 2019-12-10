@@ -11,13 +11,13 @@ ul.navbar-nav {
 }
 
 
-li#menu {
+li.menu {
 float: left;
 padding: 16px 20px;
 background-color: white;
 }
 
-li#menu a {
+li.menu a {
 display: block;
 padding: 10px;
 text-align: center;
@@ -32,7 +32,7 @@ border-style: solid;
 }
 
 
-li#menu a:hover {
+li.menu a:hover {
 border-color: black;
 }
 
@@ -166,11 +166,12 @@ a#citylink {
 
 
 div#contact {
-  background-color: black;
-  color: white;
+
   min-height: 80vh;
   max-height: 80vh;
   width: 98.7vw;
+  background-color: black;
+  color: white;
   box-align: center;
 }
 
@@ -189,10 +190,8 @@ li#icon {
   margin: 0 20px;
 }
 
-
 p#descript {
   color: white;
   font-size: 30px;
   text-shadow: 1px 1px #535252;
 }
-
