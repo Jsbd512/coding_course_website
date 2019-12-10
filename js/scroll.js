@@ -5,20 +5,28 @@ $(document).ready(function() {
         // Transition effect for navbar and back-to-top icon
 
         $("#nav-home").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#home"), 1000);
+            $('html, body').animate({
+                scrollTop: $("#home").offset().top
+            }, 1000);
+            return false;
         });
         $("#nav-who-we-are").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#who-we-are"), 1000);
+            $('html, body').animate({
+                scrollTop: $("#who-we-are").offset().top
+            }, 1000);
+            return false;
         });
         $("#nav-experiences").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#experiences"), 1000);
+            $('html, body').animate({
+                scrollTop: $("#experiences").offset().top
+            }, 1000);
+            return false;
         });
         $("#nav-contact").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#contact"), 1000);
+            $('html, body').animate({
+                scrollTop: $("#contact").offset().top
+            }, 1000);
+            return false;
         });
 
       });
