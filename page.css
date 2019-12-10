@@ -1,11 +1,9 @@
-
-
 div.navbar {
   background-color: white;
-  position: fixed;
+  position: static;
+  z-index: 1;
   width: 100%;
 }
-
 ul.navbar-nav {
   list-style-type: none;
   margin: 0;
@@ -14,13 +12,13 @@ ul.navbar-nav {
 }
 
 
-li#menu {
+li.menu {
 float: left;
 padding: 16px 20px;
 background-color: white;
 }
 
-li#menu a {
+li.menu a {
 display: block;
 padding: 10px;
 text-align: center;
@@ -35,7 +33,7 @@ border-style: solid;
 }
 
 
-li#menu a:hover {
+li.menu a:hover {
 border-color: black;
 }
 
@@ -43,8 +41,6 @@ body {
   color: black;
   margin: 0px;
 }
-
-
 
 h1 {
 text-align: center;
@@ -88,4 +84,3 @@ margin-right: 30px;
   max-height: 50vh;
   width: 40vw;
 }
-
